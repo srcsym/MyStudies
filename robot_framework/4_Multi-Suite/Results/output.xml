@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20211214 15:50:51.180" rpa="false" schemaversion="2">
+<suite id="s1" name="Single Test Case" source="C:\Users\seyma\GitHub\MyStudies\robot_framework\Multi-Suite\tests\product 1\API\featureone.robot">
+<test id="s1-t1" name="Test case 1">
+<kw name="Log" library="BuiltIn">
+<arg>I am test case 1 of API feature 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211214 15:50:51.206" level="INFO">I am test case 1 of API feature 1</msg>
+<status status="PASS" starttime="20211214 15:50:51.206" endtime="20211214 15:50:51.206"/>
+</kw>
+<status status="PASS" starttime="20211214 15:50:51.205" endtime="20211214 15:50:51.207"/>
+</test>
+<status status="PASS" starttime="20211214 15:50:51.181" endtime="20211214 15:50:51.208"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Single Test Case">Single Test Case</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

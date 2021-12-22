@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20211222 22:05:16.612" rpa="false" schemaversion="2">
+<suite id="s1" name="Tests" source="C:\Users\seyma\GitHub\MyStudies\robot_framework\i_Variable_Scope\tests">
+<suite id="s1-s1" name="Variable Scope" source="C:\Users\seyma\GitHub\MyStudies\robot_framework\i_Variable_Scope\tests\variable_scope.robot">
+<test id="s1-s1-t1" name="Create and log a variable">
+<kw name="Log" library="BuiltIn">
+<arg>${MY_VARIABLE}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211222 22:05:16.641" level="INFO">From resource file</msg>
+<status status="PASS" starttime="20211222 22:05:16.641" endtime="20211222 22:05:16.641"/>
+</kw>
+<status status="PASS" starttime="20211222 22:05:16.641" endtime="20211222 22:05:16.642"/>
+</test>
+<test id="s1-s1-t2" name="Access a variable">
+<kw name="Log" library="BuiltIn">
+<arg>${MY_VARIABLE}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211222 22:05:16.643" level="INFO">From resource file</msg>
+<status status="PASS" starttime="20211222 22:05:16.643" endtime="20211222 22:05:16.644"/>
+</kw>
+<status status="PASS" starttime="20211222 22:05:16.643" endtime="20211222 22:05:16.644"/>
+</test>
+<status status="PASS" starttime="20211222 22:05:16.637" endtime="20211222 22:05:16.644"/>
+</suite>
+<status status="PASS" starttime="20211222 22:05:16.613" endtime="20211222 22:05:16.646"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1" name="Variable Scope">Tests.Variable Scope</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
